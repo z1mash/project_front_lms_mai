@@ -1,0 +1,27 @@
+.photo-grid__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 14px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 14px;
+    grid-row-gap: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 9px;
+  }
+}

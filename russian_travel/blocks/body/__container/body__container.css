@@ -1,0 +1,27 @@
+.body__container {
+  max-width: 1600px;
+  min-width: 1230px;
+  color: #ffffff;
+  font-family: "Inter", Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .body__container {
+    min-width: 964px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .body__container {
+    min-width: 718px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .body__container {
+    min-width: 270px;
+  }
+}

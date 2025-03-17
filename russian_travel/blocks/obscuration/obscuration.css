@@ -1,0 +1,7 @@
+.obscuration {
+  transition: color 0.5s ease-in;
+}
+
+.obscuration:hover {
+  color: #B2B3B4;
+}
